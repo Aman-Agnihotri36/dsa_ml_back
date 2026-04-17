@@ -12,12 +12,8 @@
 flask
 gunicorn
 python-dotenv
-
-# LangChain - Use modular packages (recommended in 2026)
 langchain-core
 langchain-groq
 langchain-community
-
-# Optional but often needed
 numpy
 pandas

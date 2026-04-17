@@ -6,3 +6,4 @@ dataclasses
 numpy
 pandas
 dotenv
+gunicorn

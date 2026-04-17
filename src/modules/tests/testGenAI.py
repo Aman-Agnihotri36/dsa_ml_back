@@ -1,5 +1,6 @@
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+# from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 import json, re, os
 from dotenv import load_dotenv

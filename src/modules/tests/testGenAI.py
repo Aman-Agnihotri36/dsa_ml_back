@@ -109,28 +109,31 @@
 #     )
 
 
-
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StructuredOutputParser, ResponseSchema
+
+# ✅ FIXED IMPORT
+from langchain.output_parsers import StructuredOutputParser, ResponseSchema
+
 import json
 import re
 import os
 from dotenv import load_dotenv
 from src.utils.customLogger import logger
 
+# ---------------- ENV ----------------
 load_dotenv()
 
 groq_api_key = os.getenv("GROQ_API_KEY")
 if groq_api_key:
     logger.info(f"{os.path.abspath(__file__)}: GROQ_API_KEY loaded successfully!")
 else:
-    logger.info(f"{os.path.abspath(__file__)}: GROQ_API_KEY not found. Make sure it's in your .env file.")
+    logger.info(f"{os.path.abspath(__file__)}: GROQ_API_KEY not found. Set it in environment variables.")
 
-# ---------------- Groq LLM ----------------
+# ---------------- LLM ----------------
 llm = ChatGroq(
     temperature=0.2,
-    api_key=groq_api_key,          # Changed from groq_api_key= to api_key=
+    api_key=groq_api_key,
     model="llama-3.1-8b-instant"
 )
 
@@ -147,8 +150,10 @@ format_instructions = parser.get_format_instructions()
 # ---------------- Prompt ----------------
 prompt = ChatPromptTemplate.from_template(
     """
-You are a DSA evaluator. 
+You are a DSA evaluator.
+
 You are given a coding question and its proposed solution.
+
 Your task:
 1. Verify if the solution is correct for the question.
 2. If correct: return as per the JSON schema.
@@ -169,7 +174,8 @@ Return only a JSON object in this exact format:
 def extract_json(text: str):
     """Fallback: extract JSON object from raw text if malformed."""
     text = text.strip()
-    if text.startswith("```"):  # remove code fences
+
+    if text.startswith("```"):
         text = re.sub(r"^```(json)?", "", text)
         text = re.sub(r"```$", "", text)
 
@@ -180,42 +186,61 @@ def extract_json(text: str):
             cleaned = re.sub(r",\s*]", "]", cleaned)
             return json.loads(cleaned)
         except Exception as e:
-            return {"result": False, "testCase": None, "explanation": f"Bad JSON parse: {e}\nRaw: {text}"}
-    return {"result": False, "testCase": None, "explanation": f"No JSON found. Raw: {text}"}
+            return {
+                "result": False,
+                "testCase": None,
+                "explanation": f"Bad JSON parse: {e}\nRaw: {text}"
+            }
 
+    return {
+        "result": False,
+        "testCase": None,
+        "explanation": f"No JSON found. Raw: {text}"
+    }
+
+# ---------------- Evaluate One ----------------
 def evaluate_solution(qid, question, solution):
-    """Evaluate a single solution against its question."""
     chain = prompt | llm
-    response = chain.invoke({"qid": qid, "question": question, "solution": solution})
+    response = chain.invoke({
+        "qid": qid,
+        "question": question,
+        "solution": solution
+    })
+
     try:
         return parser.parse(response.content)
     except Exception as e:
         logger.warning(f"Parser failed, falling back: {e}")
         return extract_json(response.content)
 
+# ---------------- Evaluate All ----------------
 def evaluate_all(questions_dict, solutions_dict):
-    """Evaluate all solutions and return final dictionary."""
     results = {}
-    logger.info(f"{os.path.abspath(__file__)}: evaluate_all func called for \n questions: {questions_dict}\n solutions: {solutions_dict}")
+
+    logger.info(f"{os.path.abspath(__file__)}: evaluate_all called")
+
     for qid, question in questions_dict.items():
-        logger.info(f"{os.path.abspath(__file__)}: qid: {qid}\n question: {question}")
         sol = solutions_dict.get(qid)
+
         if sol is None:
             try:
                 sol = solutions_dict.get(int(qid))
-            except ValueError:
+            except:
                 pass
-        logger.info(f"{os.path.abspath(__file__)}: sol:{sol}")
+
         if sol is None:
-            results[qid] = {"result": False, "testCase": None, "explanation": "No solution provided"}
-            logger.info(f"{os.path.abspath(__file__)}: {results[qid]}")
+            results[qid] = {
+                "result": False,
+                "testCase": None,
+                "explanation": "No solution provided"
+            }
         else:
             results[qid] = evaluate_solution(qid, question, sol)
-            logger.info(f"{os.path.abspath(__file__)}: {results[qid]}")
+
     return results
 
+# ---------------- Count Correct ----------------
 def count_correct_solutions(results_dict):
-    """Count how many solutions are correct in the results dict."""
     return sum(
         1 for res in results_dict.values()
         if str(res["result"]).lower() == "true"

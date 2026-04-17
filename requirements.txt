@@ -11,9 +11,8 @@
 
 flask
 gunicorn
-python-dotenv
-langchain-core
-langchain-groq
-langchain-community
+langchain==0.1.16
+langchain_groq
 numpy
 pandas
+python-dotenv

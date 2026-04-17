@@ -1,0 +1,190 @@
+2025-10-01 18:54:49 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: GROQ_API_KEY loaded successfully!
+2025-10-01 18:54:49 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: testByDifficultyReplyFinal called
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /get_questions_genai
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: testByGenAIReplyFinal called
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: Request handler called for {'userId': 'guest@test.com', 'testId': 15, 'timeStamp': '2025-10-01T13:27:45.041Z', 'testType': 'testByGenAI', 'params': {'dataStructure': ['array'], 'difficultyLevel': ['easy'], 'companies': [], 'numberOfQuestions': 3, 'seed': 42, 'timeLimit': 'no-limit'}}
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: running testReplyConfigurationManager
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: `testReplyConfigurationManager` called.
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making databaseTestInitManager Configuration
+2025-10-01 18:57:45 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Ensuring DB exists...
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2025-10-01 18:57:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: no duplicate found for guest@test.com having testId 15
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: User-Test Details ['guest@test.com', 15, 'testByGenAI', '2025-10-01T13:27:45.041Z'] Added to table db/testUserDetails.xlsx
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: returning from database
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: There is no duplicate entry for the data.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: The test type is `testByGenAI`
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making testByGenAIConfiguration
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: COnfiguration is testByGenAIConfig(numberOfQuestions=3, difficultyLevel=['easy'], dataStructure=['array'])
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making databaseTestDetailsManager Configguration
+2025-10-01 18:57:46 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Ensuring DB exists...
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: no duplicate found for guest@test.com having testId 15
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Test Details ['guest@test.com', 15, 3, ['easy'], [], ['array'], 'no-limit'] Added to table db/testDetails.xlsx
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: Test Details are saved in database.
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: generating test...
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: test by generative ai generation...
+2025-10-01 18:57:46 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: Parameter: noq: 3, diff: ['easy'], DSA:['array']
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: questions generated, returning dictionaries...
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: test generated
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: running testReplyConfigurationManager
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making dataQuestionsDetailsManager Configuration
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: saving the question ids in the database
+2025-10-01 18:57:48 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2025-10-01 18:57:48 | app_logger | INFO | dbTestReply.py: Ensuring DB exists...
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2025-10-01 18:57:48 | app_logger | INFO | dbTestReply.py: no duplicate found for guest@test.com having testId 15
+2025-10-01 18:57:48 | app_logger | INFO | dbTestReply.py: Test Details ['guest@test.com', 15, {'1': {'question': 'Given an array of integers representing exam scores, find the number of students who scored above the average score. The array is sorted in ascending order.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5]', 'output': '2', 'explanation': 'The average score is (1 + 2 + 3 + 4 + 5) / 5 = 3. The students who scored above the average are 4 and 5.'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '2': {'question': 'You are given an array of integers representing the heights of a series of buildings. Write a function to find the maximum number of buildings that can be seen from a given point. The buildings are represented as a list of integers, where each integer represents the height of a building.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[3, 5, 4, 8, 0, 2]', 'output': '4', 'explanation': 'The maximum number of buildings that can be seen from a given point is 4 (8, 5, 4, 3).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '3': {'question': 'Given an array of integers representing the weights of a series of boxes, find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5], 7', 'output': '9', 'explanation': 'The maximum weight that can be achieved is 9 (3 + 4 + 2).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}}] Added to table db/questionDetails.xlsx
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: question ids saved in the database
+2025-10-01 18:57:48 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: response sent to frontend
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: scoreReplyFinalForAll called
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\scoreReplyConfigManager.py: running scoreReplyConfigurationManager
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: {'userId': 'guest@test.com', 'timeTaken': 1438, 'testId': 15, 'solutions': {'1': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '2': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '3': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n'}}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\scoreReplyConfigManager.py: returning solutionDetailsConfig
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: Test Evaluating
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: userId: guest@test.com, testId: 15
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval called
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval: getTestDetails called
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: userId: guest@test.com
+testId: 15
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: dict1: {'userId': 'guest@test.com', 'testId': 15, 'testType': 'testByGenAI', 'timeStamp': '2025-10-01T13:27:45.041Z'}
+ dict2: {'userId': 'guest@test.com', 'testId': 15, 'numberOfQuestions': 3, 'difficultyLevel': "['easy']", 'companies': '[]', 'dataStructure': "['array']", 'timeLimit': 'no-limit'}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: result: {'userId': 'guest@test.com', 'testId': 15, 'testType': 'testByGenAI', 'timeStamp': '2025-10-01T13:27:45.041Z', 'numberOfQuestions': 3, 'difficultyLevel': "['easy']", 'companies': '[]', 'dataStructure': "['array']", 'timeLimit': 'no-limit'}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: testDetails: {'userId': 'guest@test.com', 'testId': 15, 'testType': 'testByGenAI', 'timeStamp': '2025-10-01T13:27:45.041Z', 'numberOfQuestions': 3, 'difficultyLevel': "['easy']", 'companies': '[]', 'dataStructure': "['array']", 'timeLimit': 'no-limit'}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval: restrieveQuestionIdsGeneral called
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: questionIds: {'1': {'question': 'Given an array of integers representing exam scores, find the number of students who scored above the average score. The array is sorted in ascending order.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5]', 'output': '2', 'explanation': 'The average score is (1 + 2 + 3 + 4 + 5) / 5 = 3. The students who scored above the average are 4 and 5.'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '2': {'question': 'You are given an array of integers representing the heights of a series of buildings. Write a function to find the maximum number of buildings that can be seen from a given point. The buildings are represented as a list of integers, where each integer represents the height of a building.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[3, 5, 4, 8, 0, 2]', 'output': '4', 'explanation': 'The maximum number of buildings that can be seen from a given point is 4 (8, 5, 4, 3).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '3': {'question': 'Given an array of integers representing the weights of a series of boxes, find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5], 7', 'output': '9', 'explanation': 'The maximum weight that can be achieved is 9 (3 + 4 + 2).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: Questions: {'1': {'question': 'Given an array of integers representing exam scores, find the number of students who scored above the average score. The array is sorted in ascending order.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5]', 'output': '2', 'explanation': 'The average score is (1 + 2 + 3 + 4 + 5) / 5 = 3. The students who scored above the average are 4 and 5.'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '2': {'question': 'You are given an array of integers representing the heights of a series of buildings. Write a function to find the maximum number of buildings that can be seen from a given point. The buildings are represented as a list of integers, where each integer represents the height of a building.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[3, 5, 4, 8, 0, 2]', 'output': '4', 'explanation': 'The maximum number of buildings that can be seen from a given point is 4 (8, 5, 4, 3).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '3': {'question': 'Given an array of integers representing the weights of a series of boxes, find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5], 7', 'output': '9', 'explanation': 'The maximum weight that can be achieved is 9 (3 + 4 + 2).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: Solutions: {'1': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '2': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '3': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n'}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: evaluate_all func called for 
+ questions: {'1': {'question': 'Given an array of integers representing exam scores, find the number of students who scored above the average score. The array is sorted in ascending order.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5]', 'output': '2', 'explanation': 'The average score is (1 + 2 + 3 + 4 + 5) / 5 = 3. The students who scored above the average are 4 and 5.'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '2': {'question': 'You are given an array of integers representing the heights of a series of buildings. Write a function to find the maximum number of buildings that can be seen from a given point. The buildings are represented as a list of integers, where each integer represents the height of a building.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[3, 5, 4, 8, 0, 2]', 'output': '4', 'explanation': 'The maximum number of buildings that can be seen from a given point is 4 (8, 5, 4, 3).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}, '3': {'question': 'Given an array of integers representing the weights of a series of boxes, find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5], 7', 'output': '9', 'explanation': 'The maximum weight that can be achieved is 9 (3 + 4 + 2).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}}
+ solutions: {'1': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '2': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n', '3': '#include <iostream>\n#include <vector>\n#include <numeric> // for accumulate\nusing namespace std;\n\nint countAboveAverage(vector<int>& scores) {\n    int n = scores.size();\n    \n    // Step 1: Calculate average\n    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;\n    \n    // Step 2: Binary search to find first element > avg\n    int low = 0, high = n - 1, ans = n;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (scores[mid] > avg) {\n            ans = mid;  // potential answer\n            high = mid - 1;\n        } else {\n            low = mid + 1;\n        }\n    }\n    \n    // Step 3: Count of students above average\n    return n - ans;\n}\n\nint main() {\n    vector<int> scores = {1, 2, 3, 4, 5};\n    cout << countAboveAverage(scores) << endl; // Output: 2\n    return 0;\n}\n'}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: qid: 1
+ question: {'question': 'Given an array of integers representing exam scores, find the number of students who scored above the average score. The array is sorted in ascending order.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5]', 'output': '2', 'explanation': 'The average score is (1 + 2 + 3 + 4 + 5) / 5 = 3. The students who scored above the average are 4 and 5.'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}
+2025-10-01 18:59:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: sol:#include <iostream>
+#include <vector>
+#include <numeric> // for accumulate
+using namespace std;
+
+int countAboveAverage(vector<int>& scores) {
+    int n = scores.size();
+    
+    // Step 1: Calculate average
+    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;
+    
+    // Step 2: Binary search to find first element > avg
+    int low = 0, high = n - 1, ans = n;
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (scores[mid] > avg) {
+            ans = mid;  // potential answer
+            high = mid - 1;
+        } else {
+            low = mid + 1;
+        }
+    }
+    
+    // Step 3: Count of students above average
+    return n - ans;
+}
+
+int main() {
+    vector<int> scores = {1, 2, 3, 4, 5};
+    cout << countAboveAverage(scores) << endl; // Output: 2
+    return 0;
+}
+
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: {'result': True, 'testCase': None, 'explanation': None}
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: qid: 2
+ question: {'question': 'You are given an array of integers representing the heights of a series of buildings. Write a function to find the maximum number of buildings that can be seen from a given point. The buildings are represented as a list of integers, where each integer represents the height of a building.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[3, 5, 4, 8, 0, 2]', 'output': '4', 'explanation': 'The maximum number of buildings that can be seen from a given point is 4 (8, 5, 4, 3).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: sol:#include <iostream>
+#include <vector>
+#include <numeric> // for accumulate
+using namespace std;
+
+int countAboveAverage(vector<int>& scores) {
+    int n = scores.size();
+    
+    // Step 1: Calculate average
+    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;
+    
+    // Step 2: Binary search to find first element > avg
+    int low = 0, high = n - 1, ans = n;
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (scores[mid] > avg) {
+            ans = mid;  // potential answer
+            high = mid - 1;
+        } else {
+            low = mid + 1;
+        }
+    }
+    
+    // Step 3: Count of students above average
+    return n - ans;
+}
+
+int main() {
+    vector<int> scores = {1, 2, 3, 4, 5};
+    cout << countAboveAverage(scores) << endl; // Output: 2
+    return 0;
+}
+
+2025-10-01 18:59:06 | app_logger | WARNING | Parser failed, falling back: Got invalid JSON object. Error: Expecting ',' delimiter: line 3 column 2 (char 20)
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: {'result': False, 'testCase': None, 'explanation': 'Bad JSON parse: Expecting \',\' delimiter: line 3 column 2 (char 20)\nRaw: \n{\n\t"result": false\n\t"testCase": "vector<int> scores = {1, 2, 3, 4, 5};"\n\t"explanation": "The proposed solution is for finding the number of students above the average score, not the maximum number of buildings that can be seen from a given point. The problem requires a different approach, such as iterating through the array from left to right and keeping track of the maximum height seen so far."\n}\n'}
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: qid: 3
+ question: {'question': 'Given an array of integers representing the weights of a series of boxes, find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit.', 'difficultyLevel': 'easy', 'examples': {'1': {'input': '[1, 2, 3, 4, 5], 7', 'output': '9', 'explanation': 'The maximum weight that can be achieved is 9 (3 + 4 + 2).'}}, 'constraints': {'1': 'The array will not be empty.', '2': 'The array will contain only positive integers.'}}
+2025-10-01 18:59:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: sol:#include <iostream>
+#include <vector>
+#include <numeric> // for accumulate
+using namespace std;
+
+int countAboveAverage(vector<int>& scores) {
+    int n = scores.size();
+    
+    // Step 1: Calculate average
+    double avg = (double)accumulate(scores.begin(), scores.end(), 0) / n;
+    
+    // Step 2: Binary search to find first element > avg
+    int low = 0, high = n - 1, ans = n;
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (scores[mid] > avg) {
+            ans = mid;  // potential answer
+            high = mid - 1;
+        } else {
+            low = mid + 1;
+        }
+    }
+    
+    // Step 3: Count of students above average
+    return n - ans;
+}
+
+int main() {
+    vector<int> scores = {1, 2, 3, 4, 5};
+    cout << countAboveAverage(scores) << endl; // Output: 2
+    return 0;
+}
+
+2025-10-01 18:59:07 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: {'result': False, 'testCase': 'Given an array [1, 2, 3, 4, 5, 6] and a limit of 10, the function should return 3 because the maximum weight that can be achieved is 9 (3 + 4 + 2).', 'explanation': 'The proposed solution is intended to find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit. However, the provided solution is actually calculating the number of students above the average score, not the maximum weight that can be achieved by selecting a subset of boxes. The solution needs to be modified to correctly solve the problem.'}
+2025-10-01 18:59:07 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: result: {'1': {'result': True, 'testCase': None, 'explanation': None}, '2': {'result': False, 'testCase': None, 'explanation': 'Bad JSON parse: Expecting \',\' delimiter: line 3 column 2 (char 20)\nRaw: \n{\n\t"result": false\n\t"testCase": "vector<int> scores = {1, 2, 3, 4, 5};"\n\t"explanation": "The proposed solution is for finding the number of students above the average score, not the maximum number of buildings that can be seen from a given point. The problem requires a different approach, such as iterating through the array from left to right and keeping track of the maximum height seen so far."\n}\n'}, '3': {'result': False, 'testCase': 'Given an array [1, 2, 3, 4, 5, 6] and a limit of 10, the function should return 3 because the maximum weight that can be achieved is 9 (3 + 4 + 2).', 'explanation': 'The proposed solution is intended to find the maximum weight that can be achieved by selecting a subset of boxes such that the total weight does not exceed a given limit. However, the provided solution is actually calculating the number of students above the average score, not the maximum weight that can be achieved by selecting a subset of boxes. The solution needs to be modified to correctly solve the problem.'}}
+2025-10-01 18:59:07 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: Evaluation Completed
+2025-10-01 18:59:07 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: response sent to frontend

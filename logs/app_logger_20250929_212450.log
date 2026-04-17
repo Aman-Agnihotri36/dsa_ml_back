@@ -1,0 +1,14 @@
+2025-09-29 21:24:52 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: GROQ_API_KEY loaded successfully!
+2025-09-29 21:24:52 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: testByDifficultyReplyFinal called
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: scoreReplyFinalForAll called
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\scoreReplyConfigManager.py: running scoreReplyConfigurationManager
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\scoreReplyConfigManager.py: returning solutionDetailsConfig
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: Test Evaluating
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: userId: guest@test.com, testId: 1759161301263
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval called
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval: getTestDetails called
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: userId: guest@test.com
+testId: 1759161301263
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\test_main.py: testDetails: {}
+2025-09-29 21:25:01 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbDetails.py: generalRetrieval: restrieveQuestionIdsGeneral called

@@ -1,0 +1,24 @@
+2026-04-17 19:19:05 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: GROQ_API_KEY loaded successfully!
+2026-04-17 19:19:06 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: testByDifficultyReplyFinal called
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /get_questions_genai
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: testByGenAIReplyFinal called
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: Request handler called for {'userId': 'guest@test.com', 'testId': 19, 'timeStamp': '2026-04-17T13:49:41.814Z', 'testType': 'testByGenAI', 'params': {'dataStructure': 'arrays', 'difficultyLevel': 'easy', 'companies': [], 'numberOfQuestions': 3, 'seed': 42, 'timeLimit': 'custom'}}
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: running testReplyConfigurationManager
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: `testReplyConfigurationManager` called.
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making databaseTestInitManager Configuration
+2026-04-17 19:19:41 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Ensuring DB exists...
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2026-04-17 19:19:41 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Duplicate entry to guest@test.com having testId 19 found. Not Registered.
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: returning from database
+2026-04-17 19:19:42 | app_logger | INFO | {os.path.abspath(__file__)} duplicates found.
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: generating test...
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: test by generative ai generation...
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: duplicates found
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: test generated
+2026-04-17 19:19:42 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: response sent to frontend

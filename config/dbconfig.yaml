@@ -1,0 +1,18 @@
+userTestFilePath: "db/testUserDetails.xlsx"
+testDetailsFilePath: "db/testDetails.xlsx"
+questionDetailsFilePath: "db/questionDetails.xlsx"
+solutionDetailsFilePath: "db/solutionDetails.xlsx"
+scoreDetailsFilePath: "scoreDetails.xlsx"
+filesAndColumns: {
+   "testUserDetails.xlsx":["userId","testId","testType","timeStamp"],
+   "testDetails.xlsx":["userId","testId","numberOfQuestions","difficultyLevel","companies","dataStructure","timeLimit"],
+   "questionDetails.xlsx":["userId","testId","questionIds"],
+   "solutionDetails.xlsx":["userId","testId","solutions","timeTaken"],
+   "scoreDetails.xlsx":["userId","testId","result","score"]
+}   
+target: "db"
+testUserDetails: ["userId","testId","testType","timeStamp"]
+testDetails: ["userId","testId","numberOfQuestions","difficultyLevel","companies","dataStructure","timeLimit"]
+questionDetails: ["userId","testId","questionIds"]
+solutionDetails: ["userId","testId","solutions","timeTaken"]
+scoreDetails: ["userId","testId","result","score"]

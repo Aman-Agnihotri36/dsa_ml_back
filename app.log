@@ -1,0 +1,6 @@
+2025-09-29 20:51:18,979 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-09-29 20:51:18,981 | app_logger | ERROR | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: Invalid data format, expected 'userId' and 'solutions'
+2025-09-29 20:55:52,706 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-09-29 21:06:45,760 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-09-29 21:11:26,935 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit
+2025-09-29 21:18:41,509 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /submit

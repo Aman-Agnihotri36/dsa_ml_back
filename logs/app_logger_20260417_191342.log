@@ -1,0 +1,105 @@
+2026-04-17 19:13:44 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\tests\testGenAI.py: GROQ_API_KEY loaded successfully!
+2026-04-17 19:13:45 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\scoreReplyFinal.py: testByDifficultyReplyFinal called
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\app.py: new request at /get_questions_genai
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: testByGenAIReplyFinal called
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: Request handler called for {'userId': 'guest@test.com', 'testId': 19, 'timeStamp': '2026-04-17T13:44:33.233Z', 'testType': 'testByGenAI', 'params': {'dataStructure': 'arrays', 'difficultyLevel': 'easy', 'companies': [], 'numberOfQuestions': 3, 'seed': 42, 'timeLimit': 'custom'}}
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: running testReplyConfigurationManager
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: `testReplyConfigurationManager` called.
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making databaseTestInitManager Configuration
+2026-04-17 19:14:33 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Ensuring DB exists...
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2026-04-17 19:14:33 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: no duplicate found for guest@test.com having testId 19
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: User-Test Details ['guest@test.com', 19, 'testByGenAI', '2026-04-17T13:44:33.233Z'] Added to table db/testUserDetails.xlsx
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: returning from database
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: There is no duplicate entry for the data.
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: The test type is `testByGenAI`
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making testByGenAIConfiguration
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: COnfiguration is testByGenAIConfig(numberOfQuestions=3, difficultyLevel='easy', dataStructure='arrays')
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\config\testReplyConfigManager.py: making databaseTestDetailsManager Configguration
+2026-04-17 19:14:34 | app_logger | INFO | __init__.py: reading config/dbconfig.yaml file
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Ensuring DB exists...
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: Database found. Checking Tables...
+2026-04-17 19:14:34 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testUserDetails.xlsx already exists.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\testDetails.xlsx already exists.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\questionDetails.xlsx already exists.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\solutionDetails.xlsx already exists.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\__init__.py: db\scoreDetails.xlsx already exists.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: no duplicate found for guest@test.com having testId 19
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\database\dbTestReply.py: Test Details ['guest@test.com', 19, 3, 'easy', [], 'arrays', 'custom'] Added to table db/testDetails.xlsx
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\requests\testRequest.py: Test Details are saved in database.
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py: generating test...
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: test by generative ai generation...
+2026-04-17 19:14:35 | app_logger | INFO | C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py: Parameter: noq: 3, diff: easy, DSA:arrays
+2026-04-17 19:14:36 | app_logger | ERROR | Exception in function 'generateTest': Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\utils\customException.py", line 13, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\__init__.py", line 35, in generateTest
+    output = generate_questions(num_questions=numberOfQuestions,topics=dataStructure,difficulties=difficultyLevel)
+  File "C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\modules\testReply\testByGenAI\genAINew.py", line 106, in generate_questions
+    response = chain.invoke({
+        "num_questions": num_questions,
+        "topics": topics,
+        "difficulties": difficulties
+    })
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_core\runnables\base.py", line 3034, in invoke
+    input = context.run(step.invoke, input, config)
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_core\language_models\chat_models.py", line 370, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_core\language_models\chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_core\language_models\chat_models.py", line 766, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\langchain_groq\chat_models.py", line 498, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\groq\resources\chat\completions.py", line 355, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<38 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\groq\_base_client.py", line 1222, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\agnih\AppData\Local\Programs\Python\Python313\Lib\site-packages\groq\_base_client.py", line 1031, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-04-17 19:14:36 | app_logger | ERROR | Exception in function 'testByGenAIReplyFinal': cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\utils\customException.py", line 13, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\agnih\OneDrive\Documents\Desktop\back\mocktest_backend\my_project\src\replies\testReplyFinal.py", line 103, in testByGenAIReplyFinal
+    testDict,dbDict=testGenerator.generateTest()
+    ^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object

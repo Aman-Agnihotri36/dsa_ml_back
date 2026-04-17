@@ -1,9 +1,8 @@
+flask
+gunicorn
 langchain
 langchain_groq
 langchain_core
-flask
-dataclasses
 numpy
 pandas
-dotenv
-gunicorn
+python-dotenv
